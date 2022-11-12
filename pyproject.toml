@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "elo-matchmaking"
+version = "0.1.0"
+description = ""
+authors = ["Kloven <jloup.m@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.6.2"
+tqdm = "^4.64.1"
+numpy = "^1.23.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
